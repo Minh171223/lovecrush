@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+    padding: 2rem;
+    background-color: #ee6aac;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 395px;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url('background.gif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+marquee {
+    width: auto;
+    min-height: 100px;
+    margin: auto;
+    margin-top: 0.5%;
+}
+
+.love {
+    margin: auto;
+    margin-left: 570px;
+    position: absolute;
+    left: 75px;
+    top: 140px;
+}
+
+.butyes {
+    width: 160px;
+    height: 30px;
+    border: 1px solid hidden;
+    border-radius: 10px;
+    border-color: rgb(240, 14, 63);
+    position: absolute;
+    left: 35%;
+}
+
+.butno {
+    width: 160px;
+    height: 30px;
+    border: 1px solid hidden;
+    border-radius: 10px;
+    border-color: rgb(42, 89, 231);
+    position: absolute;
+    right: 35%;
+}
+
+.text {
+    position: absolute;
+    top: 350px;
+    left: 32%;
+    border: 1px solid hidden
+}
+
+body {
+    width: 100%;
+}
+
+.rainbow {
+    position: absolute;
+    left: -30px;
+    bottom: 0px;
+}
+
+.rainbow.meo {
+    border: 1px solid hidden;
+    border-radius: 20px;
+}
+
+.window {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    display: none;
+    text-align: center;
+    border: 1px solid hidden;
+    border-radius: 40px;
+    background-color: rgb(235, 69, 77);
+}
+
+.yeuem {
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    width: 60%;
+}
+
+.ket {
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+
+.end {
+    position: absolute;
+    bottom: 60px;
+    left: 175px;
+    border-radius: 10px;
+    height: 30px;
+    font-family: sans-serif;
+}
+
+.conten {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    background-color: #0008;
+}
